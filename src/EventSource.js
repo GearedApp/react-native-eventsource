@@ -51,7 +51,7 @@ class EventSource extends EventSourceBase {
         if (ev.id !== id) {
           return;
         }
-        console.log("event >> ", ev);
+        console.log("message event >> ", ev);
         var event = new EventSourceEvent(ev.type, {
           data: ev.message,
         });
@@ -63,6 +63,8 @@ class EventSource extends EventSourceBase {
           return;
         }
         this.readyState = this.OPEN;
+        console.log("open event >> ", ev);
+
         var event = new EventSourceEvent("open");
         this.onopen && this.onopen(event);
         this.dispatchEvent(event);

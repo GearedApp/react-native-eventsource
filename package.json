@@ -21,9 +21,11 @@
   "author": "João Ribeiro <jonnybgod@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "react-native": "^0.42.3"
+    "react": "16.11.0",
+    "react-native": "0.62.2"
   },
   "peerDependencies": {
-    "react-native": "^0.42.3"
+    "react": "*",
+    "react-native": "*"
   }
 }

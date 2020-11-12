@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.authors      = package["author"]
 
   s.platforms    = { :ios => "9.0" }
-  s.source       = { :git => "https://github.com/GearedApp/react-native-eventsource", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/GearedApp/react-native-eventsource.git", :tag => "#{s.version}" }
 
 
   s.source_files = "ios/**/*.{h,m,mm}"

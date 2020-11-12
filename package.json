@@ -6,10 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/JonnyBGod/react-native-eventsource"
+  "repository": "https://github.com/GearedApp/react-native-eventsource",
+  "bugs": {
+    "url": "https://github.com/GearedApp/react-native-eventsource/issues"
   },
+  "homepage": "https://github.com/GearedApp/react-native-eventsource#readme",
   "keywords": [
     "react-native",
     "react-component",
